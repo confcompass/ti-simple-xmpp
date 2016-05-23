@@ -7,5 +7,11 @@
   },
   "nativeDependencies": {
     "net.iamyellow.tiws": "0.6.0"
-  }
+  },
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
 }
