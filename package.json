@@ -1,0 +1,11 @@
+{
+  "name": "ti-simple-xmpp",
+  "version": "0.0.1",
+  "guid": "76cb731c-5abf-3b79-6cde-f04202e9ea6d",
+  "dependencies": {
+    "simple-xmpp": "1.3.x"
+  },
+  "nativeDependencies": {
+    "net.iamyellow.tiws": "0.6.0"
+  }
+}
