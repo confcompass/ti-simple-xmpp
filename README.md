@@ -41,7 +41,7 @@ Example
 -------
 
 ```javascript
-var xmpp = require('simple-xmpp');
+var xmpp = require('ti-simple-xmpp').SimpleXMPP;
 
 xmpp.on('online', function(data) {
     console.log('Connected with JID: ' + data.jid.user);
@@ -77,10 +77,15 @@ xmpp.getRoster();
 Documentation
 -------------
 The API of this library is identical to
-[Node Simple XMPP](https://github.com/simple-xmpp/node-simple-xmpp))
+[Node Simple XMPP](https://github.com/simple-xmpp/node-simple-xmpp)
+
+License
+-------
+Like the Simple XMPP package, this library is
+[MIT](http://www.opensource.org/licenses/mit-license.php) licensed.
 
 Acknowledgements
 ----------------
-This package embeds a replacement XmlHttpRequest implementation (`xhr.js`) that
-is taken from [XHR](https://github.com/raulriera/XHR). The `xhr.js` file is MIT
-licensed.
+This package embeds a replacement `XmlHttpRequest` implementation (`xhr.js`)
+that is taken from [XHR](https://github.com/raulriera/XHR). The `xhr.js` file is
+MIT licensed.
