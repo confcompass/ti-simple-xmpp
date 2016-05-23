@@ -1,7 +1,7 @@
 Titanium Simple XMPP
 ====================
 Simple High Level Titanium XMPP Library (ported from
-[simple-xmpp](https://github.com/simple-xmpp/node-simple-xmpp)).
+[node-simple-xmpp](https://github.com/simple-xmpp/node-simple-xmpp)).
 
 Install
 -------
