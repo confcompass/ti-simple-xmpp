@@ -63,10 +63,11 @@ if (from === 'a.friend@gmail.com') {
 });
 
 xmpp.connect({
-	jid					: username@gmail.com,
-	password		: password,
-	host				: 'talk.google.com',
-	port				: 5222
+    websocket: { url: 'ws://myserver.com:5280/websocket/' },
+    jid : 'username@myserver.com',
+    password : 'password',
+    reconnect: true,
+    skipPresence: false
 });
 
 xmpp.subscribe('your.friend@gmail.com');
