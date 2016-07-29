@@ -67,6 +67,7 @@ xmpp.connect({
     jid : 'username@myserver.com',
     password : 'password',
     reconnect: true,
+    preferred: 'PLAIN',
     skipPresence: false
 });
 
@@ -74,6 +75,11 @@ xmpp.subscribe('your.friend@gmail.com');
 // check for incoming subscription requests
 xmpp.getRoster();
 ```
+
+Example app
+-----------
+There is a bare bones [example app](https://github.com/confcompass/XMPPTestApp)
+available that demonstrates some of this library's features.
 
 Documentation
 -------------
@@ -84,6 +90,12 @@ License
 -------
 Like the Simple XMPP package, this library is
 [MIT](http://www.opensource.org/licenses/mit-license.php) licensed.
+
+Known limitations
+-----------------
+Currently, only XMPP over Websocket connections are supported. Ordinary XMPP
+connections establish TCP connections that require a replacement implementation
+for Node.js' `net.Socket` API in Titanium.
 
 Acknowledgements
 ----------------
